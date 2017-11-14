@@ -87,7 +87,7 @@ axios.interceptors.request.use(
   
 ```
 
-// http response 服务器响应拦截器，这里拦截401错误，并重新跳入登页重新获取token
+http response 服务器响应拦截器，这里拦截401错误，并重新跳入登页重新获取token
 
 ```
 axios.interceptors.response.use(
